@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                 '*/\n'
         },
         files: {
-	        'style.css': 'sass/style.scss'
+	        'theme/style.css': 'sass/style.scss'
       	}
       }
     },
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-            'style.css': 'style.css'
+            'theme/style.css': 'theme/style.css'
         }
       }
     }
